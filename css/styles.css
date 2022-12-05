@@ -233,6 +233,7 @@ body {
 .img {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 120px;
 }
 
 .feature-list {
@@ -355,6 +356,7 @@ body {
     text-decoration: none;
     letter-spacing: 0.03em;
     margin-bottom: 16px;
+    display: block;
 }
 .logo-web-footer {
     color: var(--accent-color);
@@ -371,5 +373,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
 }
     
