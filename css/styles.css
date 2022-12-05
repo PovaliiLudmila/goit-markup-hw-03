@@ -37,6 +37,7 @@ body {
 .header-page {
     padding-top: 24px;
     padding-bottom: 24px;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .page-header-container {
     display: flex;
@@ -222,6 +223,13 @@ body {
     text-transform: capitalize;
     padding-bottom: 72px;
 }
+.card-text-title {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background:var(--primary-bg-color);
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+}
 .img {
     display: flex;
     justify-content: space-between;
@@ -292,6 +300,15 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.button-nav {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 96px;
+}
+.prim:not(:last-child) {
+    margin-right: 24px;
+}
 .button.prim {
     background-color: var(--color-conflower);
     color: var(--accent-color);
@@ -316,7 +333,14 @@ body {
     letter-spacing: 0.04em;
     border: 1px solid transparent;
 }
-
+.cards-portfolio {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
+    background:var(--primary-bg-color);
+    border: 0.5px solid #F4F4FD;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
 
 .footer {
     background-color: var(--navy-blue-color);
@@ -330,6 +354,7 @@ body {
     line-height: 1.16;
     text-decoration: none;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 }
 .logo-web-footer {
     color: var(--accent-color);
@@ -338,6 +363,7 @@ body {
     font-size: 18px;
     line-height: 1.16;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 }
 .footer-text {
     color: var(--color-conflower);
