@@ -158,7 +158,6 @@ body {
     padding: 16px 32px;
     min-width: 170px;
     display: inline-block;
-    
     border: 1px solid transparent;
 }
 .button.primary:hover,
@@ -299,11 +298,14 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+.section-portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
 .button-nav {
     display: flex;
     text-align: center;
     justify-content: center;
-    padding-top: 96px;
 }
 .prim:not(:last-child) {
     margin-right: 24px;
