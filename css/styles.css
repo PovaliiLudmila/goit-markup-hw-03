@@ -57,7 +57,7 @@ body {
 }
 .contact {
     display: flex;
-    align-items: center;
+    margin-left: auto;
 }
 .logo {
     color: var(--navy-blue-color);
@@ -275,14 +275,15 @@ body {
 .cards-img {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 72px;
+    margin-top: -48px;
+    margin-left: -24px;
 }
-.cards:not(:nth-child(3n)) {
-    margin-right: 24px;
+.cards {
+    flex-basis: calc(100%/3-48px);
+    margin-top: 48px;
+    margin-left: 24px;
 }
-.cards:not(:nth-last-child(-n + 3)) {
-    margin-bottom: 48px;
-}
+
 .cards-img .title {
     color: var(--navy-blue-color);
     font-weight: 600;
@@ -305,6 +306,7 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
+    margin-bottom: 72px;
 }
 .prim:not(:last-child) {
     margin-right: 24px;
