@@ -275,7 +275,6 @@ body {
 .cards-img {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 120px;
     padding-top: 72px;
 }
 .cards:not(:nth-child(3n)) {
