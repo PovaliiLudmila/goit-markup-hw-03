@@ -16,9 +16,6 @@ ul {
     margin-top: 0;
     padding-left: 0;
 }
-img {
-    display: block;
-}
 .botton {
     cursor: pointer;
 }
@@ -42,6 +39,7 @@ body {
 .page-header-container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .nav {
     display: flex;
@@ -50,7 +48,6 @@ body {
 .site-nav {
     display: flex;
     align-items: center;
-    margin-right: 331px; 
 }
 .navigation:not(:last-child) {
     margin-right: 40px;
@@ -138,7 +135,6 @@ body {
     text-align: center;
     padding-top: 192px;
     padding-bottom: 192px;
-    margin-bottom: 120px;
 }
 .hero-title {
     color: var(--primary-bg-color);
@@ -199,7 +195,9 @@ body {
     color: var(--navy-blue-color);
     margin-bottom: 8px;
 }
-
+.section-placeholder {
+    padding-bottom: 120px;
+}
 .section-benefits .title {
     color: var(--navy-blue-color);
     font-weight: 600;
@@ -208,7 +206,8 @@ body {
     letter-spacing: 0.02em;
 }
 .section-benefits {
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -230,10 +229,9 @@ body {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
-.img {
+.placeholder {
     display: flex;
-    justify-content: space-between;
-    padding-bottom: 120px;
+    justify-content: space-between;  
 }
 
 .feature-list {
