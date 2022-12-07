@@ -279,11 +279,14 @@ body {
     margin-left: -24px;
 }
 .cards {
-    flex-basis: calc(100%/3-48px);
+    
+    flex-basis: calc(100%/3 - 48px);
     margin-top: 48px;
     margin-left: 24px;
 }
-
+.potfolio-images {
+    display: block;
+}
 .cards-img .title {
     color: var(--navy-blue-color);
     font-weight: 600;
